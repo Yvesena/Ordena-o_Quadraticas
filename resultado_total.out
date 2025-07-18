@@ -1,0 +1,54 @@
+Tempos de ordenação
+========================
+
+Arquivo: num.1000.1.in
+Metodo: selection | Tempo: 0.044422 segundos
+Metodo: insertion | Tempo: 0.063967 segundos
+----------------------------
+Arquivo: num.1000.2.in
+Metodo: selection | Tempo: 0.061460 segundos
+Metodo: insertion | Tempo: 0.054318 segundos
+----------------------------
+Arquivo: num.1000.3.in
+Metodo: selection | Tempo: 0.050615 segundos
+Metodo: insertion | Tempo: 0.049703 segundos
+----------------------------
+Arquivo: num.1000.4.in
+Metodo: selection | Tempo: 0.065172 segundos
+Metodo: insertion | Tempo: 0.054785 segundos
+----------------------------
+Arquivo: num.10000.1.in
+Metodo: selection | Tempo: 5.448717 segundos
+Metodo: insertion | Tempo: 5.754540 segundos
+----------------------------
+Arquivo: num.10000.2.in
+Metodo: selection | Tempo: 4.371240 segundos
+Metodo: insertion | Tempo: 4.502308 segundos
+----------------------------
+Arquivo: num.10000.3.in
+Metodo: selection | Tempo: 4.334185 segundos
+Metodo: insertion | Tempo: 4.438386 segundos
+----------------------------
+Arquivo: num.10000.4.in
+Metodo: selection | Tempo: 5.170035 segundos
+Metodo: insertion | Tempo: 4.844772 segundos
+----------------------------
+Arquivo: num.100000.1.in
+Metodo: selection | Tempo: 460.710912 segundos
+Metodo: insertion | Tempo: 524.252509 segundos
+----------------------------
+Arquivo: num.100000.2.in
+Metodo: selection | Tempo: 451.650414 segundos
+Metodo: insertion | Tempo: 629.713070 segundos
+----------------------------
+Arquivo: num.100000.3.in
+Metodo: selection | Tempo: 518.762151 segundos
+Metodo: insertion | Tempo: 530.049233 segundos
+----------------------------
+Arquivo: num.100000.4.in
+Metodo: selection | Tempo: 714.052028 segundos
+Metodo: insertion | Tempo: 631.741294 segundos
+----------------------------
+
+Tempo total Selection Sort: 2164.721353 segundos
+Tempo total Insertion Sort: 2335.518884 segundos
