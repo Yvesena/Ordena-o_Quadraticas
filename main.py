@@ -61,7 +61,7 @@ def main():
         
         for arquivo in arquivos:
             caminho = os.path.join(input_folder, arquivo)
-            print(f"\n📄 Arquivo: {arquivo}")
+            print(f"\n Arquivo: {arquivo}")
             out.write(f"Arquivo: {arquivo}\n")
 
             arr = ler_arquivo(caminho)
@@ -70,7 +70,7 @@ def main():
                 try:
                     tempo = ordenar_e_tempo(arr, metodo)
                     out.write(f"Metodo: {metodo} | Tempo: {tempo:.6f} segundos\n")
-                    print(f"  ⏱️ {metodo.capitalize()} Sort: {tempo:.6f} segundos")
+                    print(f"   {metodo.capitalize()} Sort: {tempo:.6f} segundos")
 
                     if metodo == "selection":
                         total_selection += tempo
@@ -81,11 +81,11 @@ def main():
 
             out.write("----------------------------\n")
 
-        # Totais
+        # Totais de tempo
         out.write(f"\nTempo total Selection Sort: {total_selection:.6f} segundos\n")
         out.write(f"Tempo total Insertion Sort: {total_insertion:.6f} segundos\n")
 
-    # Também mostra no terminal:
+   
     print("\n==== Totais ====")
     print(f" Tempo total Selection Sort: {total_selection:.6f} segundos")
     print(f" Tempo total Insertion Sort: {total_insertion:.6f} segundos")
